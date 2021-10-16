@@ -14,7 +14,7 @@ desenvolvendo uma API de gerenciamento de heróis utilizando Spring WebFlux, Rea
 
 ### Executar dynamo: 
 
- na pasta em que o jar está baixado: java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+ na pasta em que o jar está baixado: java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDB
  
 para listar as tabelas criadas:  aws dynamodb list-tables --endpoint-url http://localhost:8000
 
